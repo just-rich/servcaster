@@ -20,3 +20,6 @@ Run `node index.js` manually whenever you need to broadcast a message (e.g., bot
 ### 📜 Servers List (`servlist/index.js`)
 Lists all servers the bot is in via console logs.  
 If the bot has permission to create invite links, it will include one next to the server name.
+
+### Author
+slapped together by [rich](https://richw.xyz) to notify servers of bot's switching to other applications
