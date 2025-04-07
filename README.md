@@ -33,5 +33,8 @@ Run `npm run start` or `node index.js` manually whenever you need to broadcast a
 Lists all servers the bot is in via console logs.  
 If the bot has permission to create invite links, it will include one next to the server name.
 
+## To Do
+- If there are 2 channels matching any of the keywords, and bot doesn't have perms to send in the 1st channel matching a keyword, it fails and doesn't think to try to the next channel. This needs fixed.
+
 ### Author
 slapped together by [rich](https://richw.xyz) to notify servers of bot's switching to other applications
