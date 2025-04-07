@@ -1,0 +1,18 @@
+{
+  "name": "servcaster",
+  "version": "1.0.0",
+  "description": "A simple bot that broadcasts a message to every server it's in.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.13.0",
+    "dotenv": "^16.3.1"
+  },
+  "author": {
+    "name": "just-rich",
+    "url": "https://richw.xyz",
+    "email": "rich@richw.xyz"
+  }
+}

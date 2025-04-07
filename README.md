@@ -12,8 +12,20 @@ A simple bot that sends a predefined message into each server it's in.
 - 🟡 **GOOD ENOUGH** – No keyword found, but sent the message in a channel it had permissions in.
 - ❌ **FAILED** – Couldn’t send the message in any channel.
 
+### Installation
+1. **Clone or Download the Repo**
+   If you haven’t already, clone or download the repository to your local machine.
+
+   ```bash
+   git clone <repo-url>
+   cd servcaster
+
+2. Install dependencies
+   ```bash
+   npm install
+
 ### 🔁 Running the Bot
-Run `node index.js` manually whenever you need to broadcast a message (e.g., bot updates or removal notices).
+Run `npm run start` or `node index.js` manually whenever you need to broadcast a message (e.g., bot updates or removal notices).
 
 > **IMPORTANT:** Don’t forget to **update the message** inside `index.js` before running it, and ensure you’re using the correct bot token.
 
