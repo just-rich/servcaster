@@ -4,7 +4,7 @@ require('dotenv').config(); // Load token from .env file
 const client = new Client({ intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages] });
 
 const MESSAGE_CONTENT = "**ATTENTION!!** message_here Add the new bot with this invite link: https://discord.com/oauth2/authorize?client_id=BOT_ID_HERE";
-const PRIORITY_CHANNELS = ["main", "general", "chat", "hangout", "lobby", "lounge", "room"];
+const PRIORITY_CHANNELS = ["main", "general", "chat", "hangout", "lobby", "lounge", "room", "public", "chill", "discussion", "talk", "off-topic"];
 
 client.once('ready', async () => {
     console.log(`Logged in as ${client.user.tag}!`);
